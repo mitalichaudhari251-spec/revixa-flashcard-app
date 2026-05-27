@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Indigo palette -->
+    <color name="indigo_50">#E8EAF6</color>
+    <color name="indigo_100">#C5CAE9</color>
+    <color name="indigo_200">#9FA8DA</color>
+    <color name="indigo_300">#7986CB</color>
+    <color name="indigo_400">#5C6BC0</color>
+    <color name="indigo_500">#3F51B5</color>
+    <color name="indigo_600">#3949AB</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="indigo_800">#283593</color>
+    <color name="indigo_900">#1A237E</color>
+
+    <!-- Teal palette -->
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_700">#00796B</color>
+
+    <!-- Semantic -->
+    <color name="color_error">#EF5350</color>
+    <color name="color_success">#4CAF50</color>
+    <color name="color_warning">#FFA726</color>
+
+    <!-- Base -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Light mode surfaces -->
+    <color name="surface_light">#F8F9FA</color>
+    <color name="surface_variant_light">#E8EAF6</color>
+    <color name="secondary_container_light">#E8EAF6</color>
+    <color name="on_secondary_container_light">#1A237E</color>
+    <color name="outline_light">#74777F</color>
+    <color name="outline_variant_light">#C4C6D0</color>
+    <color name="on_surface_variant_light">#44464F</color>
+
+    <!-- Light mode text -->
+    <color name="text_primary_light">#212121</color>
+    <color name="text_secondary_light">#757575</color>
+
+    <!-- Dark mode surfaces -->
+    <color name="surface_dark">#121212</color>
+    <color name="surface_variant_dark">#2C2D35</color>
+    <color name="secondary_container_dark">#283593</color>
+    <color name="on_secondary_container_dark">#C5CAE9</color>
+    <color name="outline_dark">#8E9099</color>
+    <color name="outline_variant_dark">#44464F</color>
+    <color name="on_surface_variant_dark">#C4C6D0</color>
+
+    <!-- Dark mode text -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#BDBDBD</color>
+</resources>

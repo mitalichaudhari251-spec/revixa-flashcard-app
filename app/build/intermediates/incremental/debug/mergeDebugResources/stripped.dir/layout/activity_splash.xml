@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/indigo_700"
+    android:padding="40dp">
+
+    <!-- Logo circle -->
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#3D5AFE"
+        android:layout_marginBottom="28dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_logo"
+            android:padding="16dp"
+            android:scaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- App name -->
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Revixa"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.02"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tagline -->
+    <TextView
+        android:id="@+id/tv_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart AI Study Companion"
+        android:textSize="15sp"
+        android:textColor="#C5CAE9"
+        android:layout_marginBottom="56dp" />
+
+    <!-- Loading bar -->
+    <ProgressBar
+        android:id="@+id/progress_splash"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="140dp"
+        android:layout_height="6dp"
+        android:progress="65"
+        android:progressTint="#FFFFFF"
+        android:progressBackgroundTint="#3DFFFFFF"
+        android:indeterminate="false" />
+
+    <!-- Loading label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading…"
+        android:textSize="12sp"
+        android:textColor="#80FFFFFF"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

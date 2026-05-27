@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.example.revixa.app-mergeDebugResources-37:/layout/activity_splash.xml",
+        "source": "com.example.revixa.app-main-40:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\item_card.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\item_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\activity_create_card.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\activity_create_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\item_category.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\item_community_card.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\item_community_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\activity_revision.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\activity_revision.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\item_progress_category.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\item_progress_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\activity_progress.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\activity_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-mergeDebugResources-37:\\layout\\activity_community.xml",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\8.0\\com.example.revixa.app-main-40:\\layout\\activity_community.xml"
+    }
+]

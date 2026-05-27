@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Book background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,34 Q24,28 30,28 L78,28 Q84,28 84,34 L84,80 Q84,86 78,86 L30,86 Q24,86 24,80 Z" />
+
+    <!-- Spine (filled rect as thin line) -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M50,28 L54,28 L54,86 L50,86 Z" />
+
+    <!-- Right page line 1 -->
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M58,42 L78,42 L78,45 L58,45 Z" />
+
+    <!-- Right page line 2 -->
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M58,52 L78,52 L78,55 L58,55 Z" />
+
+    <!-- Right page line 3 -->
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M58,62 L72,62 L72,65 L58,65 Z" />
+
+    <!-- Brain dot (circle as path) -->
+    <path
+        android:fillColor="#303F9F"
+        android:pathData="M38,49 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+</vector>

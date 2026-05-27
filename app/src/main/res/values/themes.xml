@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Revixa" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/indigo_500</item>
+        <item name="colorPrimaryVariant">@color/indigo_700</item>
+        <item name="colorPrimaryDark">@color/indigo_700</item>
+        <item name="colorSecondary">@color/teal_400</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_primary_light</item>
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:colorBackground">@color/surface_light</item>
+        <item name="android:windowBackground">@color/surface_light</item>
+        <item name="android:statusBarColor">@color/indigo_700</item>
+        <item name="android:navigationBarColor">@color/surface_light</item>
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+    </style>
+
+    <style name="Theme.Revixa.Splash" parent="Theme.Revixa">
+        <item name="android:windowBackground">@color/indigo_700</item>
+        <item name="android:statusBarColor">@color/indigo_700</item>
+        <item name="android:navigationBarColor">@color/indigo_700</item>
+    </style>
+
+</resources>

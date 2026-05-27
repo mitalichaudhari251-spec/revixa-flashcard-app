@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Revixa</string>
+    <string name="app_tagline">Smart AI Study Companion</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Good morning 👋</string>
+    <string name="greeting_afternoon">Good afternoon 👋</string>
+    <string name="greeting_evening">Good evening 👋</string>
+    <string name="due_cards_format">%d cards due today</string>
+    <string name="no_due_cards">All caught up!</string>
+
+    <!-- Card creation -->
+    <string name="create_card">Create Card</string>
+    <string name="edit_card">Edit Card</string>
+    <string name="save_card">Save Card</string>
+    <string name="update_card">Update Card</string>
+    <string name="cancel">Cancel</string>
+    <string name="generate_ai">✨ Auto-Generate with AI</string>
+    <string name="field_required">This field is required</string>
+    <string name="card_saved">Card saved successfully!</string>
+    <string name="card_updated">Card updated!</string>
+
+    <!-- Revision -->
+    <string name="reveal_answer">Reveal Answer ↓</string>
+    <string name="btn_hard">😖 Hard</string>
+    <string name="btn_medium">😐 Medium</string>
+    <string name="btn_easy">😊 Easy</string>
+    <string name="session_complete">Session Complete! 🎉</string>
+    <string name="no_cards_due">No cards due! 🎉</string>
+    <string name="all_caught_up">All caught up. Come back tomorrow.</string>
+
+    <!-- Progress -->
+    <string name="progress_title">📊 My Progress</string>
+    <string name="streak_format">🔥 %d day streak</string>
+    <string name="xp_format">%d XP</string>
+
+    <!-- Community -->
+    <string name="community_title">🌍 Community Library</string>
+    <string name="import_card">↓ Import</string>
+    <string name="card_imported_format">Card \'%s\' added to your deck!</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_empty_title">Title must be at least 2 characters.</string>
+    <string name="error_empty_question">Question must be at least 5 characters.</string>
+    <string name="error_empty_answer">Answer cannot be empty.</string>
+</resources>

@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.revixa"
+4    android:installLocation="auto"
+5    android:versionCode="10"
+6    android:versionName="2.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="34" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:5:5-67
+12-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:6:5-79
+13-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:6:22-76
+14
+15    <permission
+15-->[androidx.core:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-3\58aa3917006eb869cf4d42849d423cb1\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+16        android:name="com.example.revixa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-3\58aa3917006eb869cf4d42849d423cb1\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-3\58aa3917006eb869cf4d42849d423cb1\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="com.example.revixa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-3\58aa3917006eb869cf4d42849d423cb1\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-3\58aa3917006eb869cf4d42849d423cb1\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+20
+21    <application
+21-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:8:5-56:19
+22        android:name="com.example.revixa.RevixaApp"
+22-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:9:9-34
+23        android:allowBackup="false"
+23-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:10:9-36
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-3\58aa3917006eb869cf4d42849d423cb1\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:hardwareAccelerated="true"
+27-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:16:9-43
+28        android:icon="@mipmap/ic_launcher"
+28-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:11:9-43
+29        android:label="@string/app_name"
+29-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:12:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:13:9-54
+31        android:supportsRtl="true"
+31-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:14:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.Revixa" >
+33-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:15:9-44
+34        <activity
+34-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:18:9-27:20
+35            android:name="com.example.revixa.presentation.ui.splash.SplashActivity"
+35-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:19:13-66
+36            android:exported="true"
+36-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:20:13-36
+37            android:screenOrientation="portrait"
+37-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:22:13-49
+38            android:theme="@style/Theme.Revixa.Splash" >
+38-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:21:13-55
+39            <intent-filter>
+39-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:23:13-26:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:24:17-69
+40-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:25:17-77
+42-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:25:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:29:9-33:58
+46            android:name="com.example.revixa.presentation.ui.home.HomeActivity"
+46-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:30:13-62
+47            android:exported="false"
+47-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:31:13-37
+48            android:screenOrientation="portrait"
+48-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:32:13-49
+49            android:windowSoftInputMode="adjustResize" />
+49-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:33:13-55
+50        <activity
+50-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:35:9-39:58
+51            android:name="com.example.revixa.presentation.ui.create.CreateCardActivity"
+51-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:36:13-70
+52            android:exported="false"
+52-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:37:13-37
+53            android:screenOrientation="portrait"
+53-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:38:13-49
+54            android:windowSoftInputMode="adjustResize" />
+54-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:39:13-55
+55        <activity
+55-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:41:9-44:52
+56            android:name="com.example.revixa.presentation.ui.revision.RevisionActivity"
+56-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:42:13-70
+57            android:exported="false"
+57-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:43:13-37
+58            android:screenOrientation="portrait" />
+58-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:44:13-49
+59        <activity
+59-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:46:9-49:52
+60            android:name="com.example.revixa.presentation.ui.progress.ProgressActivity"
+60-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:47:13-70
+61            android:exported="false"
+61-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:48:13-37
+62            android:screenOrientation="portrait" />
+62-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:49:13-49
+63        <activity
+63-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:51:9-54:52
+64            android:name="com.example.revixa.presentation.ui.community.CommunityActivity"
+64-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:52:13-72
+65            android:exported="false"
+65-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:53:13-37
+66            android:screenOrientation="portrait" />
+66-->E:\dowloads\Revixa\Revixa\app\src\main\AndroidManifest.xml:54:13-49
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.example.revixa.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\3abf992305477ed8d1304361ed51f0e6\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\HP\.gradle\caches\transforms-3\957002776f29d5f29010a1ed5e8f91ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\HP\.gradle\caches\transforms-3\957002776f29d5f29010a1ed5e8f91ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\HP\.gradle\caches\transforms-3\957002776f29d5f29010a1ed5e8f91ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <service
+83-->[androidx.room:room-runtime:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\8376d02a40a707a46d78c053d92ce416\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+84            android:name="androidx.room.MultiInstanceInvalidationService"
+84-->[androidx.room:room-runtime:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\8376d02a40a707a46d78c053d92ce416\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+85            android:directBootAware="true"
+85-->[androidx.room:room-runtime:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\8376d02a40a707a46d78c053d92ce416\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+86            android:exported="false" />
+86-->[androidx.room:room-runtime:2.6.1] C:\Users\HP\.gradle\caches\transforms-3\8376d02a40a707a46d78c053d92ce416\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\HP\.gradle\caches\transforms-3\8f2db9b0b08283adb05a93c727d71153\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>
