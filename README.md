@@ -10,7 +10,7 @@ using android studio in java this app generated the revision card generator
 [![API](https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-blue?style=flat-square)](https://developer.android.com)
 [![Java](https://img.shields.io/badge/Language-Java-orange?style=flat-square&logo=java)](https://java.com)
 [![Architecture](https://img.shields.io/badge/Architecture-MVVM%20%2B%20Clean-purple?style=flat-square)](https://developer.android.com/topic/architecture)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)](#-contributing)
+
 <br/>
 
 > **Revixa** is a modern Android flashcard app powered by the **SM-2 Spaced Repetition Algorithm** and **AI-assisted card generation** — designed to help students study smarter, retain more, and track their learning progress with beautiful analytics.
@@ -348,7 +348,7 @@ chore:     Build process or dependency updates
 ### 📱 Revixa — Study Smarter, Not Harder
 
 [![GitHub stars](https://img.shields.io/github/stars/mitalichaudhari251-spec/revixa-flashcard-app?style=social)](https://github.com/mitalichaudhari251-spec/revixa-flashcard-app)
-[![GitHub forks](https://img.shields.io/github/forks/mitalichaudhari251-spec/revixa-flashcard-app?style=social)](https://github.com/mitalichaudhari251-spec/revixa-flashcard-app/fork)
+
 [![GitHub issues](https://img.shields.io/github/issues/mitalichaudhari251-spec/revixa-flashcard-app?style=social)](https://github.com/mitalichaudhari251-spec/revixa-flashcard-app/issues)
 
 **⭐ If Revixa helped you study better, give it a star!**
