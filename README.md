@@ -4,7 +4,7 @@ using android studio in java this app generated the revision card generator
 
 <div align="center">
 
-![Revixa Banner](https://img.shields.io/badge/Revixa-Smart%20Study%20Companion-5C6BC0?style=for-the-badge&logo=android&logoColor=white)
+
 
 [![Android](https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android)](https://android.com)
 [![API](https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-blue?style=flat-square)](https://developer.android.com)
