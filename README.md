@@ -17,7 +17,7 @@ using android studio in java this app generated the revision card generator
 
 <br/>
 
-[✨ Features](#-features) • [🏗 Architecture](#-architecture) • [🧠 Algorithm](#-sm-2-algorithm) • [🛠 Tech Stack](#-tech-stack) • [🚀 Setup](#-setup) • [🤝 Contributing](#-contributing)
+[✨ Features](#-features) • [🏗 Architecture](#-architecture) • [🧠 Algorithm](#-sm-2-algorithm) • [🛠 Tech Stack](#-tech-stack) • [🚀 Setup](#-setup) 
 
 </div>
 
@@ -347,9 +347,9 @@ chore:     Build process or dependency updates
 
 ### 📱 Revixa — Study Smarter, Not Harder
 
-[![GitHub stars](https://img.shields.io/github/stars/mitalichaudhari251-spec/Revixa?style=social)](https://github.com/mitalichaudhari251-spec/Revixa)
-[![GitHub forks](https://img.shields.io/github/forks/mitalichaudhari251-spec/Revixa?style=social)](https://github.com/mitalichaudhari251-spec/Revixa/fork)
-[![GitHub issues](https://img.shields.io/github/issues/mitalichaudhari251-spec/Revixa?style=social)](https://github.com/mitalichaudhari251-spec/Revixa/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mitalichaudhari251-spec/revixa-flashcard-app?style=social)](https://github.com/mitalichaudhari251-spec/revixa-flashcard-app)
+[![GitHub forks](https://img.shields.io/github/forks/mitalichaudhari251-spec/revixa-flashcard-app?style=social)](https://github.com/mitalichaudhari251-spec/revixa-flashcard-app/fork)
+[![GitHub issues](https://img.shields.io/github/issues/mitalichaudhari251-spec/revixa-flashcard-app?style=social)](https://github.com/mitalichaudhari251-spec/revixa-flashcard-app/issues)
 
 **⭐ If Revixa helped you study better, give it a star!**
 
