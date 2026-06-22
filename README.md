@@ -10,8 +10,7 @@ using android studio in java this app generated the revision card generator
 [![API](https://img.shields.io/badge/Min%20SDK-24%20(Android%207.0)-blue?style=flat-square)](https://developer.android.com)
 [![Java](https://img.shields.io/badge/Language-Java-orange?style=flat-square&logo=java)](https://java.com)
 [![Architecture](https://img.shields.io/badge/Architecture-MVVM%20%2B%20Clean-purple?style=flat-square)](https://developer.android.com/topic/architecture)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
-
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square)](#-contributing)
 <br/>
 
 > **Revixa** is a modern Android flashcard app powered by the **SM-2 Spaced Repetition Algorithm** and **AI-assisted card generation** — designed to help students study smarter, retain more, and track their learning progress with beautiful analytics.
